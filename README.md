@@ -1,1 +1,2 @@
-This is my world city tour, web page. Focus: CSS flexbox.
+This is a World Cities page. Focus: Learning CSS Flex Box.
+No grid whatsoever.
