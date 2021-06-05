@@ -196,7 +196,8 @@ Hero ?Hero = customer.
 }
 @media screen and (min-width: 768px) {
   .hero {
-    background: url("../media/banner.jpg") center/cover fixed no-repeat;
+    background: linear-gradient(rgba(44, 174, 186, 0.7), rgba(0, 0, 0, 0.1)),
+      url("../images/main.jpeg") center/cover fixed no-repeat;
   }
   .hero-banner p {
     max-width: 45rem;
