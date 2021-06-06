@@ -375,11 +375,13 @@ Featured Tours
   /* box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2); */
   transition: var(--transition);
   border-radius: var(--radius);
+  box-shadow: var(--light-shadow);
 }
 
 .tour-card:hover {
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: var(--dark-shadow);
   cursor: pointer;
+  transform: scale(1.02);
 }
 
 .tour-img-container {
