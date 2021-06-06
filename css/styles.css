@@ -352,6 +352,13 @@ Services
 Featured Tours
 ===============
 */
+.featured-center {
+  display: flex;
+  flex-wrap: wrap;
+}
+.tour-card {
+  /* min-width: 20rem; */
+}
 
 /*
 =============== 
