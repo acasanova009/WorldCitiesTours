@@ -581,4 +581,45 @@ Gallery
 =============== 
 Footer
 ===============
-*/ ;
+*/
+
+.footer {
+  background: var(--clr-grey-1);
+  text-align: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.footer-links,
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+.footer-link {
+  transition: var(--transition);
+  color: var(--clr-white);
+  text-transform: capitalize;
+  font-size: 1rem;
+  margin-right: 1rem;
+  letter-spacing: var(--spacing);
+}
+.footer-link:hover {
+  color: var(--clr-primary-5);
+}
+
+.footer-icon {
+  font-size: 2rem;
+  margin-right: 1rem;
+  transition: var(--transition);
+  color: var(--clr-white);
+}
+.footer-icon:hover {
+  color: var(--clr-primary-8);
+}
+.copyright {
+  text-transform: capitalize;
+  color: var(--clr-white);
+  letter-spacing: var(--spacing);
+}
